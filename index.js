@@ -72,6 +72,7 @@ function  navBar(){
 }
 function nav(){
     document.getElementById("navbar").style.display = "block"
+    document.getElementById("close").style.display ="block"
 }
 function closeNav(){
     document.getElementById("navbar").style.display ='none'
