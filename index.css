@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+width: 100%;
+/* display:flex; */
+}
+.navbar{
+    padding: 10px 10px;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    /* justify-content: space-between; */
+    width: 1000px;
+    margin-left: 150px;
+    gap: 3rem;
+    border-bottom: 1px solid#0000001a;
+}
+.navbar ul{
+    display: flex;
+    color: rgba(128, 128, 128, 0.473);
+    gap: 2rem;
+    /* margin-left: 100px; */
+    padding-top: 20px;
+}
+.navbar li{
+    text-decoration: none;
+    list-style: none;
+    /* justify-content: space-between; */
+    font-size: 1.2rem;
+}
+.menu img{
+    margin-top: 35px;
+    margin-left: 130px;
+    display: none;
+    position: absolute;
+}
+.image1 img{
+    margin-left: 260px;
+    position: absolute;
+    margin-top: 25px;
+}
+.image2 img{
+    margin-left: 290px;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
+strong{
+    margin-top: 18px;
+    font-size: 1.5rem;
+}
+.content{
+    margin: 35px;
+    display: flex;
+    margin-left: 100px;
+}
+.content1.prev img{
+width: 1opx;
+height: 10px;
+}
+.content1{
+   
+    margin-left: 100px;
+}
+.content1 img{
+    width: 413px;
+    height: 350px;
+    border-radius: 10px;
+}
+.close img{
+    margin-top: 25px;
+    display: none;
+}
+.images{
+   margin-top: 15px;
+   display: flex;
+   gap: 1rem;
+}
+.images img{
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+}
+.content2{
+    padding: 40px 70px;
+
+}
+.content2 h4{
+    padding-bottom: 10px;
+    font-size: 1.2rem;
+    color: rgb(240, 120, 50);
+}
+.content2 h3{
+    padding-bottom: 10px;
+    font-size: 2rem;
+}
+.content2 p{
+padding-top: 10px;
+padding-bottom: 20px;
+color: rgba(128, 128, 128, 0.473);
+}
+.content2 strong{
+   margin-top: 10px;
+}
+.content2 span{
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-left: 25px;
+    padding: 1px 5px;
+    background-color: rgba(240, 120, 50, 0.192);;
+    color: rgb(240, 120, 50);
+}
+.content2 h5{
+    text-decoration-line:line-through;
+    color: rgba(128, 128, 128, 0.473);
+    padding-top: 10px;
+}
+.btn1 h4{
+    /* background-color: gray;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px; */
+    color: black;
+    /* padding: 10px 20px; */
+    /* padding-left: 40px; */
+    margin-left: 10px;
+    font-size: 1.5rem;
+   /* align-items: center; */
+   /* position: absolute; */
+}
+.btn1{
+    display: flex;
+    gap: 1.5rem;
+    background-color: rgba(128, 128, 128, 0.151);
+    width: 130px;
+    height: 45px;
+    border-radius: 5px;
+    padding: 10px;
+    position: absolute;
+    margin-top: 10px;
+}
+.plus img{
+    width: 10px;
+    height: 10px;
+    margin-left: 12px;
+}
+.minus img{
+    width:15px;
+    height: 6px;
+}
+
+button{
+    gap: 2rem;
+    color: white;
+    padding: 10px 70px;
+    position: absolute;
+    margin-left: 150px;
+    border-radius: 5px;
+    border: 1px solid rgb(240, 120, 50);;
+    margin-top: 10px;
+    background-color:rgb(240, 120, 50) ;
+}
+.cart{
+    margin-right: 10px;
+    /* width: 20px;
+    height: 15px; */
+    color: white;
+}
+@media(max-width:800px){
+    .container{
+        width: 70%;
+        /* display:flex; */
+        }
+    .navbar{
+       
+         width: 70px; 
+        
+    }
+    .navbar ul{
+        /* display: block; */
+        /* position: absolute; */
+         /* margin-left: -100%;
+        top: 70%; */
+        display: none;
+        flex-direction: column;
+        
+    }
+    .close img{
+        display: none;
+    }
+    .content{
+        margin: 30px;
+        display: block;
+    }
+    .content2{
+        padding: 40px 70px;
+    
+    }
+    .menu img{
+        /* margin-top: 25px;
+        margin-left: 20px; */
+        display: block;
+        /* position: absolute; */
+    }
+    .images img{
+        display: none;
+        /* width: 90px;
+        height: 90px;
+        border-radius: 10px; */
+    }
+    .image1 img{
+        margin-left: 100px;
+        /* position: absolute;
+        margin-top: 25px; */
+    }
+    .content2 h4{
+        font-size: 1.8rem;
+    }
+    .content2 h3{
+        font-size: 2rem;
+    }
+    .content2 p{
+    font-size: 1.5rem;
+    }
+    .content2 strong{
+       margin-top: 10px;
+    }
+    .content2 span{
+        font-size: 1.8rem;
+    }
+    .content2 h5{
+        text-decoration-line:line-through;
+        color: rgba(128, 128, 128, 0.473);
+        padding-top: 10px;
+    }
+    .content1 img{
+        width: 100%px;
+        margin-leftt: -100px;
+    }
+    .image2 img{
+        margin-left: 140px;
+        /* width: 50px;
+        height: 50px;
+        margin-top: 10px; */
+    }
+}
