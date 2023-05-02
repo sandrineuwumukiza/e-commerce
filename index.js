@@ -77,3 +77,10 @@ function nav(){
 function closeNav(){
     document.getElementById("navbar").style.display ='none'
 }
+const smallPicture = document.querySelectorAll('.small-image');
+const bigPicture = document.querySelector('.content1');
+smallPicture.forEach(smallPicture =>{
+    smallPicture.addEventListener('click',()=>{
+        bigPicture.src = smallPicture.src
+})
+})

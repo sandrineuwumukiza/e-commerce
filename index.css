@@ -5,6 +5,7 @@
 }
 .container{
 width: 100%;
+margin-left: 150px;
 /* display:flex; */
 }
 .navbar{
@@ -173,11 +174,11 @@ button{
     .container{
         width: 75%;
         /* display:flex; */
-        margin: 0;
+        
         }
     .navbar{
        
-         width: 70px; 
+         width: 50%; 
         
     }
     .navbar ul{
@@ -231,6 +232,88 @@ button{
     }
     .content2 span{
         font-size: 1.8rem;
+    }
+    .content2 h5{
+        text-decoration-line:line-through;
+        color: rgba(128, 128, 128, 0.473);
+        padding-top: 10px;
+    }
+    .content1 img{
+        width: 100%px;
+        margin-leftt: -100px;
+    }
+    .image2 img{
+        margin-left: 140px;
+        /* width: 50px;
+        height: 50px;
+        margin-top: 10px; */
+    }
+}
+@media(max-width:540px){
+    .container{
+        width: 68%;
+        /* display:flex; */
+        
+        }
+    .navbar{
+       
+         width: 40%; 
+        
+    }
+    .navbar ul{
+        /* display: block; */
+        /* position: absolute; */
+         /* margin-left: -100%;
+        top: 70%; */
+        display: none;
+        flex-direction: column;
+        
+    }
+    .close img{
+        display: none;
+    }
+    .content{
+        margin: 30px;
+        display: block;
+    }
+    .content1 img{
+        margin-right: 50px;
+    }
+    .content2{
+        padding: 40px 40px;
+    
+    }
+    .menu img{
+        /* margin-top: 25px;
+        /* position: absolute; */
+        /* margin-left: -10px; */
+        display: block;
+    }
+    .images img{
+        display: none;
+        /* width: 90px;
+        height: 90px;
+        border-radius: 10px; */
+    }
+    .image1 img{
+        margin-left: 100px;
+        /* position: absolute;
+        margin-top: 25px; */
+    }
+    .content2 h4{
+        font-size: 1.2rem;
+    }
+    .content2 h3{
+        font-size: 1.5rem;
+    }
+    .content2 p{
+    font-size: 1rem;
+    }
+    .content2 strong{
+       margin-top: 10px;
+    }
+    .content2 span{
+        font-size: 1.2rem;
     }
     .content2 h5{
         text-decoration-line:line-through;
