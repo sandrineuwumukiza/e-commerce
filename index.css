@@ -71,8 +71,8 @@ height: 10px;
     height: 350px;
     border-radius: 10px;
 }
-.close img{
-    margin-top: 25px;
+#navbar img{
+    /* margin-top: 25px; */
     display: none;
 }
 .images{
@@ -170,15 +170,28 @@ button{
     height: 15px; */
     color: white;
 }
+.prev img{
+    width:10px;
+    height: 5px;
+    display: none;
+}
+.next img{
+    width:50px;
+    height: 25px;
+    position: absolute;
+    /* margin-top: 150px;
+    margin-left: 100px; */
+    display: none;
+}
 @media(max-width:800px){
     .container{
-        width: 75%;
+        width: 500px;
         /* display:flex; */
         
         }
     .navbar{
        
-         width: 50%; 
+         width: 300px; 
         
     }
     .navbar ul{
@@ -190,15 +203,17 @@ button{
         flex-direction: column;
         
     }
-    .close img{
-        display: none;
+    #navbar img{
+        margin-top: 50px;
+       
+        display:flex;
     }
     .content{
         margin: 30px;
         display: block;
     }
     .content2{
-        padding: 40px 70px;
+        padding: 40px 50px;
     
     }
     .menu img{
@@ -214,24 +229,24 @@ button{
         border-radius: 10px; */
     }
     .image1 img{
-        margin-left: 100px;
+        margin-left: 70px;
         /* position: absolute;
         margin-top: 25px; */
     }
     .content2 h4{
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
     .content2 h3{
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
     .content2 p{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     }
     .content2 strong{
        margin-top: 10px;
     }
     .content2 span{
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
     .content2 h5{
         text-decoration-line:line-through;
@@ -239,7 +254,7 @@ button{
         padding-top: 10px;
     }
     .content1 img{
-        width: 100%px;
+        width: 300px;
         margin-leftt: -100px;
     }
     .image2 img{
@@ -247,6 +262,30 @@ button{
         /* width: 50px;
         height: 50px;
         margin-top: 10px; */
+    }
+    .prev{
+        background-color: white; 
+        border-radius: 50%;
+        width:40px;
+    }
+    .prev img{
+        width:20px;
+        background-color: white;
+        border-radius: 50%;
+        height: 25px;
+        position: absolute;
+        margin-top: 150px;
+        display: flex;
+    }
+    .next img{
+        width:20px;
+        height: 25px;
+        position: absolute;
+        margin-top: 150px;
+        margin-left: 280px;
+        display: flex;
+        background-color: white;
+        border-radius: 50%;
     }
 }
 @media(max-width:540px){

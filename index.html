@@ -29,10 +29,9 @@
         <li>Women</li>
         <li>About</li>
         <li>Contact</li>
+        <li id="close" onclick="closeNav()"><img src="./images/icon-close.svg"></li>
       </ul>
-      <div class="close" id="close" onclick="closeNav()">
-        <img src="./images/icon-close.svg">
-      </div>
+  
       <div class="image1">
         <img src="./images/icon-cart.svg">
       </div>
@@ -42,13 +41,14 @@
     </div>
     <div class="content">
       <div class="content1" id="image">
-        <!-- <div class="prev">
-          <img src="./images/icon-previous.svg" width="10px" height="10px">
-        </div> -->
+        <div class="prev" id="prev">
+          <img src="./images/icon-previous.svg" >
+        </div>
+        <div class="next" id="next">
+          <img src="./images/icon-next.svg">
+        </div>
         <img src="./images/image-product-1.jpg">
-        <!-- <div class="next">
-          <img src="./images/icon-next.svg" width="50px" height="50px">
-        </div> -->
+        
         <div class="images">
           <div id="image1" onmouseover="stayImage()" onmouseout="changeImage()">
           <img class="small-image" src="./images/image-product-1-thumbnail.jpg"></div>
