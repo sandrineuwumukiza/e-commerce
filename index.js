@@ -2,7 +2,7 @@
 
    var x= document.getElementById("image1");
    function stayImage(){
-    x.style.opacity ="0.7"
+    x.style.opacity ="0.4"
     x.style.border = "5px"
     x.style.borderColor ="red"
    }
@@ -20,7 +20,7 @@ x.addEventListener('mouseout', () => {
 var y= document.getElementById("image2");
 var m =document.getElementById("image")
    function stayImage1(){
-    y.style.opacity ="0.7"
+    y.style.opacity ="0.4"
     y.style.border = "5px"
     y.style.borderColor ="red"
    }
@@ -37,7 +37,7 @@ y.addEventListener('mouseout', () => {
 })
 var z= document.getElementById("image3");
    function stayImage2(){
-    z.style.opacity ="0.7"
+    z.style.opacity ="0.4"
     z.style.border = "5px"
     z.style.borderColor ="red"
    }
@@ -53,7 +53,7 @@ z.addEventListener('mouseout', () => {
 })
 var t= document.getElementById("image4");
    function stayImage3(){
-    t.style.opacity ="0.7"
+    t.style.opacity ="0.4"
     t.style.border = "5px"
     t.style.borderColor ="red"
    }
@@ -77,9 +77,14 @@ function nav(){
 function closeNav(){
     document.getElementById("navbar").style.display ='none'
 }
-function image(){
-    document.getElementById("smallImage1")
-}
+// const images = document.querySelector("#images")
+// const image = document.getElementById("bigImage")
+// document.querySelectorAll("#images").forEach(n => n.addEventListener("click",() => {
+//     images.src = bigImage.src
+// }))
+// function image(){
+//     document.getElementById("smallImage1")
+// }
 // const smallPicture = document.querySelectorAll('images');
 // // const bigPicture = document.querySelector('.content1');
 // smallPicture.forEach(smallPicture =>{

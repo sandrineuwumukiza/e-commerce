@@ -5,7 +5,7 @@
 }
 .container{
 width: 100%;
-margin-left: 100px;
+/* margin-left: 50px; */
 /* display:flex; */
 }
 .navbar{
@@ -148,6 +148,9 @@ color: rgba(128, 128, 128, 0.473);
     position: absolute;
     margin-top: 10px;
 }
+.btn{
+    display: flex;
+}
 .plus img{
     width: 10px;
     height: 10px;
@@ -204,7 +207,7 @@ button{
 }
 @media(max-width:800px){
     .container{
-        width: 500px;
+        width: 100%;
         /* display:flex; */
         
         }
@@ -279,6 +282,9 @@ button{
     .content1 img{
         width: 300px;
         margin-leftt: -100px;
+    }
+    .btn{
+        display: block;
     }
     .image2 img{
         margin-left: 140px;
@@ -409,3 +415,4 @@ button{
         margin-top: 10px; */
     }
 }
+
