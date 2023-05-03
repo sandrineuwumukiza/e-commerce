@@ -24,11 +24,11 @@
       <strong  >Sneakers</strong>
       <ul id="navbar">
         <!-- <li></li> -->
-        <li>Collections</li>
-        <li>Men</li>
-        <li>Women</li>
-        <li>About</li>
-        <li>Contact</li>
+        <li><a href=""> Collections</a></li>
+        <li><a href="">Men</a></li>
+        <li><a href="">Women</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact</a></li>
         <li id="close" onclick="closeNav()"><img src="./images/icon-close.svg"></li>
       </ul>
   
@@ -44,13 +44,13 @@
         <div class="prev" id="prev">
           <img src="./images/icon-previous.svg" >
         </div>
-        <div class="next" id="next">
+        <div class="next" id="next" onclick="image()">
           <img src="./images/icon-next.svg">
         </div>
         <img src="./images/image-product-1.jpg">
         
-        <div class="images">
-          <div id="image1" onmouseover="stayImage()" onmouseout="changeImage()">
+        <div class="images" id="images">
+          <div id="smallImage1" onmouseover="stayImage()" onmouseout="changeImage()">
           <img class="small-image" src="./images/image-product-1-thumbnail.jpg"></div>
           <div id="image2" onmouseover="stayImage1()" onmouseout="changeImage1()">
           <img class="small-image" src="./images/image-product-2-thumbnail.jpg"></div>

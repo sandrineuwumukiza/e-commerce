@@ -32,6 +32,11 @@ margin-left: 100px;
     /* justify-content: space-between; */
     font-size: 1.2rem;
 }
+.navbar ul a{
+    text-decoration: none;
+    list-style: none;
+    color: rgba(128, 128, 128, 0.473); 
+}
 .menu img{
     margin-top: 35px;
     margin-left: 130px;
@@ -170,17 +175,31 @@ button{
     height: 15px; */
     color: white;
 }
+.prev{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+}
 .prev img{
-    width:10px;
-    height: 5px;
+    width:20px;
+    height: 15px;
+    margin-top: 8px; 
+    margin-left: 5px;
     display: none;
 }
+.next{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color:white;
+}
 .next img{
-    width:50px;
-    height: 25px;
+    width:20px;
+    height: 15px;
     position: absolute;
-    /* margin-top: 150px;
-    margin-left: 100px; */
+    margin-top: 8px; 
+     margin-left: 5px; 
     display: none;
 }
 @media(max-width:800px){
@@ -203,6 +222,7 @@ button{
         flex-direction: column;
         
     }
+    
     #navbar img{
         margin-top: 50px;
        
@@ -227,6 +247,9 @@ button{
         /* width: 90px;
         height: 90px;
         border-radius: 10px; */
+    }
+    #smallImage1{
+        display: flex;
     }
     .image1 img{
         margin-left: 70px;
@@ -264,25 +287,41 @@ button{
         margin-top: 10px; */
     }
     .prev{
-        background-color: white; 
-        border-radius: 50%;
-        width:40px;
-    }
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color:white;
+            display: flex;
+            margin-top: 150px;
+            margin-left: 10px;
+            position: absolute;
+     }  
     .prev img{
         width:20px;
         background-color: white;
         border-radius: 50%;
         height: 25px;
-        position: absolute;
-        margin-top: 150px;
+        /* position: absolute; */
+        margin-left: 2px;
+        margin-top: 2px;
         display: flex;
+    }
+    .next{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color:white;
+        display: flex;
+        margin-top: 150px;
+        margin-left: 260px;
+        position: absolute;
     }
     .next img{
         width:20px;
         height: 25px;
         position: absolute;
-        margin-top: 150px;
-        margin-left: 280px;
+        margin-top: 2px;
+        /* margin-left: 250px; */
         display: flex;
         background-color: white;
         border-radius: 50%;
